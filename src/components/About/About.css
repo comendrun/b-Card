@@ -1,0 +1,22 @@
+.about {
+
+    color: #FFFF;
+    margin: auto 2rem;
+    margin-top: 1rem;
+}
+
+.about h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.about p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 1.8em;
+}

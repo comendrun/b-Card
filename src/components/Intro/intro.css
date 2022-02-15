@@ -1,0 +1,121 @@
+.intro {
+    border-radius: 15px 15px 0px 0px;
+    font-family: 'Poppins'
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 317px;
+}
+
+.name {
+    font-family: 'Poppins';
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+
+.job-position {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.8px;
+    padding-top: 0.25rem;
+    color: #F3BF99;
+}
+
+.website {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    padding-top: 0.5rem;
+    color: #FFFFFF;
+    font-family: 'Poppins'
+}
+
+.introsocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.introsocial .btn {
+    margin: auto 0.5rem;
+    /* margin-bottom: 2rem; */
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem;
+    /* width:130px; */
+    border-radius: 6px;
+}
+
+.btn i {
+    padding-right: 0.5rem;
+}
+
+.linkedin-btn {
+    background: #5093E2;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+
+  }
+
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    /* top: 14px; */
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.email-btn {
+    background: #FFFFFF;
+    color: #1E1F26;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+
+}
